@@ -1,0 +1,200 @@
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: darkslateblue;
+  
+}
+
+#drum-machine{
+  display: grid;
+  grid-template-columns: 67% 33%;
+  grid-template-rows: 30vh 30vh 30vh;
+  grid-template-areas: "pad display"
+                        "pad banks"
+                        "pad power";
+  justify-content: center;
+  margin-top: 5vh;
+  background-image: linear-gradient(darkslategrey, rgb(80, 80, 80));
+  width: 60%;
+  margin: auto;
+  margin-top: 5vh;
+  border-radius: 2vw;
+  box-shadow: 5px 5px 20px;
+}
+@media screen and (max-width: 768px){
+  #drum-machine{
+    width: 90%;
+    grid-template-columns: 33% 34% 33%;
+  grid-template-rows: 15vh 15vh 60vh;
+  grid-template-areas: "display display power"
+                      "banks banks power"
+                        "pad pad pad";
+  }
+}
+
+#pad{
+  grid-area: pad;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  
+  
+  
+}
+.drum-pad{
+ flex-basis: 26%;
+ height: 26%;
+ border-radius: 2vw;
+ background-color: darkgrey;
+ box-shadow: 5px 5px 20px darkred;
+ border: 3px solid darkred;
+ color: white;
+ font-size: 4vh;
+ }
+ .drum-pad:disabled{
+  border: 3px solid grey;
+  box-shadow: 5px 5px 20px black;
+ }
+
+#display{
+  grid-area: display;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-header{
+  background-color: darkgoldenrod;
+  text-transform: uppercase;
+  font-family: Digital;
+  font-size: 2vh;
+  height: 11vh;
+  width: 80%;
+  padding: 0 1vw;
+
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+.display-header-off{
+  background-color: rgb(143, 105, 9);
+ 
+  text-transform: uppercase;
+  font-family: Digital;
+  font-size: 2vh;
+  height: 11vh;
+  width: 80%;
+  padding: 0 1vw;
+
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+#power{
+  grid-area: power;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#power-button{
+  max-height: 50%;
+  border-radius: 50%;
+  flex: 1 0 auto;
+  width: 14vh;
+  background-color: rgb(192, 56, 56);
+  border: none;
+  font-size: 8vh;
+  color: black;
+ 
+  box-shadow: 5px 5px 20px black;
+
+}
+
+@media screen and (max-width: 768px){
+  #power-button{
+    width: 7vh;
+    max-height: 25%;
+    font-size:4vh;
+  }
+}
+#logo{
+  color: aquamarine;
+  font-weight: 600;
+  text-shadow: 2px 2px 5px;
+  font-size: 3vh;
+}
+@media screen and (max-width: 768px){
+  #logo{
+    font-size: 5vw;
+  }
+}
+#banks{
+  grid-area: banks;
+  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media screen and (max-width: 768px){
+  #banks{
+    flex-flow: row wrap;
+  }
+}
+.bank-button{
+  border-radius: 2vw;
+ background-color: darkgrey;
+ box-shadow: 5px 5px 20px black;
+ border: 3px solid darkred;
+ color: white;
+ font-size: 2vh;
+ text-transform: uppercase;
+ min-width: 80%;
+}
+@media screen and (max-width: 768px){
+  .bank-button{
+    min-width: 40%;
+  }
+}
+.bank-button:disabled {
+  border: 3px solid grey;
+  box-shadow: 5px 5px 20px black;
+}
+.bank-button-selected{
+  border-radius: 2vw;
+ background-color: darkgrey;
+ box-shadow: 5px 5px 20px black;
+ border: 3px solid green;
+ color: white;
+ font-size: 2vh;
+ text-transform: uppercase;
+ min-width: 80%;
+}
+@media screen and (max-width: 768px){
+  .bank-button-selected{
+    min-width: 40%;
+  }
+}
+.bank-button-selected:disabled {
+  border: 3px solid grey;
+  box-shadow: 5px 5px 20px black;
+}
+
+
