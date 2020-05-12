@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d65924514a44fda773c81c7a5c00b78",
+    "revision": "bd3c5746ad0ce75d1fa9117d62e8942c",
     "url": "/drumpad/index.html"
   },
   {
-    "revision": "04dae26914232c5fa11a",
-    "url": "/drumpad/static/css/main.fa527750.chunk.css"
+    "revision": "8b86b4d299d6783377a1",
+    "url": "/drumpad/static/css/main.8206e645.chunk.css"
   },
   {
     "revision": "5b7c676077f0c9d39558",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/drumpad/static/js/2.267a8790.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "04dae26914232c5fa11a",
+    "revision": "8b86b4d299d6783377a1",
     "url": "/drumpad/static/js/main.d37fe4a7.chunk.js"
   },
   {

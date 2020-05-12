@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/drumpad/static/css/main.fa527750.chunk.css",
+    "main.css": "/drumpad/static/css/main.8206e645.chunk.css",
     "main.js": "/drumpad/static/js/main.d37fe4a7.chunk.js",
     "main.js.map": "/drumpad/static/js/main.d37fe4a7.chunk.js.map",
     "runtime-main.js": "/drumpad/static/js/runtime-main.f1d6791c.js",
@@ -8,9 +8,9 @@
     "static/js/2.267a8790.chunk.js": "/drumpad/static/js/2.267a8790.chunk.js",
     "static/js/2.267a8790.chunk.js.map": "/drumpad/static/js/2.267a8790.chunk.js.map",
     "index.html": "/drumpad/index.html",
-    "precache-manifest.d364b5b75ed941f9d1c555ae993cdb54.js": "/drumpad/precache-manifest.d364b5b75ed941f9d1c555ae993cdb54.js",
+    "precache-manifest.45678fba2390a7de6577d1fb8ccdad2f.js": "/drumpad/precache-manifest.45678fba2390a7de6577d1fb8ccdad2f.js",
     "service-worker.js": "/drumpad/service-worker.js",
-    "static/css/main.fa527750.chunk.css.map": "/drumpad/static/css/main.fa527750.chunk.css.map",
+    "static/css/main.8206e645.chunk.css.map": "/drumpad/static/css/main.8206e645.chunk.css.map",
     "static/js/2.267a8790.chunk.js.LICENSE.txt": "/drumpad/static/js/2.267a8790.chunk.js.LICENSE.txt",
     "static/media/Ahigh.wav": "/drumpad/static/media/Ahigh.7c3488a3.wav",
     "static/media/Alow.wav": "/drumpad/static/media/Alow.a0b7fe84.wav",
@@ -52,7 +52,7 @@
   "entrypoints": [
     "static/js/runtime-main.f1d6791c.js",
     "static/js/2.267a8790.chunk.js",
-    "static/css/main.fa527750.chunk.css",
+    "static/css/main.8206e645.chunk.css",
     "static/js/main.d37fe4a7.chunk.js"
   ]
 }
