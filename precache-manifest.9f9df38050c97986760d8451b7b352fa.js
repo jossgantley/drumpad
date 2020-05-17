@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dab16cb299383e77a95c71a1fd439669",
+    "revision": "a561467ec4c0c9e6766567a2912861aa",
     "url": "/drumpad/index.html"
   },
   {
